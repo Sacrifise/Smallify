@@ -1,0 +1,20 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar-btn{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: white;
+    border-color: white;
+    color:black;
+}
+.sidebar-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
