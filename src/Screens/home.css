@@ -16,4 +16,23 @@
 .cont-content{
     background: linear-gradient(176deg, rgba(11,7,24,1) 48%, rgba(22,1,80,1) 100%);
     width: 100%;
+    padding: 30px;
+}
+
+.cont-content-trackList{
+    width:100%;
+    height: calc(100% - 40px);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.cont-content-title{
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    color:aliceblue;
+    font-weight: 200;
+    margin-bottom: 20px;
 }

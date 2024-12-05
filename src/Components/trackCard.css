@@ -1,0 +1,27 @@
+.trackCard-cont{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 230px;
+    color: white;
+    margin: 0;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+.trackCard-cont-img{
+    width: 100%;
+    height: 100%;
+    filter:saturate(0.2);
+    filter: drop-shadow(0 0 20px black);
+    user-select: none;
+    pointer-events: none;
+}
+
+.trackCard-cont-title{
+    margin: 0px;
+    color: whitesmoke;
+    font-weight: 200;
+    
+}
