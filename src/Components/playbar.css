@@ -1,0 +1,20 @@
+.cont-home-playbar{
+    border-radius: 30px;
+    background-color: black;
+    height: 100%;
+    width: 33vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont-home-playbarlabel{
+    position: absolute;
+    top: calc(100% - 11vh);
+    width: 100vw;
+    height: 10vh;
+    left: 0;
+    display: flex;
+    justify-content: center;
+
+}

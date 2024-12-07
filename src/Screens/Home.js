@@ -2,12 +2,14 @@ import React from "react";
 import "./home.css"
 import Sidebar from "../Components/sidebar";
 import TrackCard from "../Components/trackCard";
-import { TiHome, TiFlash, TiHeart, TiStarFullOutline, TiUser } from "react-icons/ti";
+import { TiHome, TiFlash, TiHeart, TiStarFullOutline, TiUser, TiMediaPlay } from "react-icons/ti";
 import { IconContext } from "react-icons";
+import Playbar from "../Components/playbar";
 
 export default function Home(){
     return(
         <div className="cont-home">
+            <Playbar/>
             <div className="cont-sidebar">
                 <div className="cont-maintitle">
                     <img className="cont-mainicon" src="https://cdn-icons-png.flaticon.com/128/2582/2582582.png"></img>smallify
