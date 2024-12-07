@@ -15,7 +15,7 @@ class TrackCard extends React.Component{
     }
 
     componentDidMount(){
-        const url = 'https://deezerdevs-deezer.p.rapidapi.com/track/1109739';
+        const url = `https://deezerdevs-deezer.p.rapidapi.com/track/${this.props.trackid}`;
         const options = {
             method: 'GET',
             headers: {
