@@ -3,10 +3,12 @@
     background-color: black;
     height: 100%;
     width: 33vw;
+    min-width: 300px;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 2;
 }
 .cont-home-playbarlabel{
     position: absolute;

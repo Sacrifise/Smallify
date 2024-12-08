@@ -1,27 +1,14 @@
 import React from "react";
-import "./home.css"
-import Sidebar from "../Components/sidebar";
+import "./home.css";
 import TrackCard from "../Components/trackCard";
-import { TiHome, TiFlash, TiHeart, TiStarFullOutline, TiUser, TiMediaPlay } from "react-icons/ti";
-import { IconContext } from "react-icons";
 import Playbar from "../Components/playbar";
+import SidebarFull from "../Components/sidebarFull";
 
 export default function Home(){
     return(
         <div className="cont-home">
             <Playbar/>
-            <div className="cont-sidebar">
-                <div className="cont-maintitle">
-                    <img className="cont-mainicon" src="https://cdn-icons-png.flaticon.com/128/2582/2582582.png"></img>smallify
-                </div>    
-                <IconContext.Provider value ={{className: ".sidebar-btn-icon", size: "40px"}}>
-                    <Sidebar title="Home" to="/" icon={<TiHome/>}/>
-                    <Sidebar title="Trends" to="/trending" icon={<TiFlash/>}/>
-                    <Sidebar title="Music" to="/music" icon={<TiHeart/>}/>
-                    <Sidebar title="Artists" to="/artists" icon={<TiStarFullOutline/>}/>
-                    <Sidebar title="Profile" to="/profile" icon={<TiUser/>}/>
-                </IconContext.Provider>
-            </div>
+            <SidebarFull/>
             <div className="cont-content">
                 <div className="cont-content-title">Today's Selection</div>
                 <div className="cont-content-trackList">

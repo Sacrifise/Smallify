@@ -1,28 +1,16 @@
-.cont-sidebar{
-    color: white;
-    font-weight: 200;
-    /* background: linear-gradient(36deg, rgba(11,7,24,1) 48%, rgba(43,0,77,1) 100%); */
-    height: 100vh;
-    width: 20%;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .cont-home{
     display: flex;
-    /* background-color:#111111; */
     background: linear-gradient(176deg, rgba(255,90,9,1) 0%, rgba(255,231,41,1) 100%);
 }
 
 .cont-content{
     margin: 20px;
     border-radius: 25px;
-    /* background: linear-gradient(36deg, rgba(11,7,24,1) 48%, rgba(22,1,80,1) 100%); */
-    /* background: linear-gradient(176deg, rgba(255,90,9,1) 0%, rgba(255,231,41,1) 100%); */
     background-color:#111111;
     width: 100%;
     padding: 80px;
+    box-shadow: inset 0px 0px 20px 20px rgb(12, 12, 12);
 }
 
 .cont-content-trackList{
@@ -43,7 +31,7 @@
     margin-bottom: 20px;
 }
 
-.cont-maintitle{
+/* .cont-maintitle{
     color: white;
     display: flex;
     justify-content: space-evenly;
@@ -59,5 +47,5 @@
     width:30px;
     height: 30px;
     margin: 5px;
-}
+} */
 
