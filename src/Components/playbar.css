@@ -10,6 +10,16 @@
     align-items: center;
     z-index: 2;
 }
+.cont-home-playbar::before{
+    bottom: 10px;
+    position: absolute;
+    content: " ";
+    width: 25vw;
+    height: 3px;
+    background-color: white;
+    border-radius: 3px;
+}
+
 .cont-home-playbarlabel{
     position: absolute;
     top: calc(100% - 11vh);

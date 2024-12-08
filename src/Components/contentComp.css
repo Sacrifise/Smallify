@@ -1,0 +1,28 @@
+.cont-content{
+    margin: 20px;
+    border-radius: 25px;
+    background-color:#111111;
+    width: 100%;
+    padding: 80px;
+    box-shadow: inset 0px 0px 20px 20px rgb(12, 12, 12);
+}
+
+.cont-content-trackList{
+    width:100%;
+    height: calc(100% - 40px);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.cont-content-title{
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    color:aliceblue;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+
