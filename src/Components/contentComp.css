@@ -2,17 +2,32 @@
     .cont-content-trackList{
         height: 740px !important;
     }
+    .cont-content{
+        padding-left: 10px !important; 
+        padding-right: 10px !important; 
+    }
 }
 
 @media (max-width: 990px) {
     .cont-content-trackList{
         height: 1000px !important;
+
+    }
+    .cont-content{
+        padding-left: 10px !important; 
+        padding-right: 10px !important; 
     }
 }
 
 @media (max-width: 768px) {
     .cont-content-trackList{
         height: 2000px !important;
+
+    }
+    .cont-content{
+        width: 90vw !important;
+        padding-left: 10px !important; 
+        padding-right: 10px !important; 
     }
 }
 
