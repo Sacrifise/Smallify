@@ -21,6 +21,12 @@ class ContentComp extends React.Component{
                     <TrackCard trackid="528330441"/>
                     <TrackCard trackid="472992592"/>
                 </div>
+                <div className="cont-content-news">Today's News
+                    <img className="image-placeholder" src="https://i.pinimg.com/originals/fc/19/ef/fc19ef294f445494cb05bda231a97046.png"></img>
+                    <img className="image-placeholder" src="https://i.pinimg.com/originals/fc/19/ef/fc19ef294f445494cb05bda231a97046.png"></img>
+                    <img className="image-placeholder" src="https://i.pinimg.com/originals/fc/19/ef/fc19ef294f445494cb05bda231a97046.png"></img>
+                </div>
+                
             </div>
         )
     }
