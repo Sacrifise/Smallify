@@ -1,23 +1,26 @@
 .cont-home-playbar{
     border-radius: 30px;
     background-color: black;
-    height: 100%;
-    width: 33vw;
+    height: 70px;
+    width: 70vw;
     min-width: 300px;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 2;
+    position: fixed;
+    display: none;
 }
 .cont-home-playbar::before{
     bottom: 10px;
     position: absolute;
     content: " ";
-    width: 25vw;
+    width: 60vw;
     height: 3px;
     background-color: white;
     border-radius: 3px;
+    z-index: 3;
 }
 
 .cont-home-playbarlabel{

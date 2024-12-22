@@ -1,0 +1,18 @@
+.popplaylist-cont{
+    width: 65%;
+    height: 100%;
+    background: #030303;
+    border-radius: 40px;
+    color:aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 30px;
+
+}
+.popplaylist-cont-img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100px;
+}

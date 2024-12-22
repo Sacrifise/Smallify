@@ -19,10 +19,13 @@
     color: white;
     font-weight: 200;
     /* background: linear-gradient(36deg, rgba(11,7,24,1) 48%, rgba(43,0,77,1) 100%); */
-    height: 100vh;
-    width: 20%;
+    background-color: #030303;
+    height: 95vh;
+    width: 25%;
+    border-radius: 20px;
     flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 1.5rem;
 }
