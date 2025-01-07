@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+    .cont-music{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+.cont-music{
+    display: flex;
+    background: linear-gradient(176deg, rgba(255,90,9,1) 0%, rgba(255,231,41,1) 100%);
+}
+

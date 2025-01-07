@@ -1,0 +1,33 @@
+.trackCard-cont{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 230px;
+    color: white;
+    margin: 0;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: 100;
+    gap: 5px;
+}
+.trackCard-cont-img{
+    border-radius: 100px;
+    object-fit: cover;
+    width: 180px;
+    height: 180px;
+    box-shadow: -3px 3px 0px 0px orange;
+    transition: 0.5s;
+}
+
+
+.trackCard-cont-img:hover{
+    box-shadow: 3px -3px 0px 0px orange;
+}
+
+.trackCard-cont-title{
+    margin: 0px;
+    color: whitesmoke;
+    font-weight: 200;
+    
+}
