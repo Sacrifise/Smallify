@@ -8,24 +8,24 @@ import Trend from './Screens/trending';
 import Artists from './Screens/artists.jsx';
 import Profile from './Screens/profile.jsx';
 import Music from './Screens/music.jsx';
+import store from './store/store.js'
+import { Provider } from 'react-redux';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
-    <Routes>
-      <Route index element={<Home/>}/>
-      <Route path="/trending" element={<Trend/>}/>
-      <Route path="/music" element={<Music/>}/>
-      <Route path="/artists" element={<Artists/>}/>
-      <Route path="/profile" element={<Profile/>}/>
-    </Routes>
-  
-  </BrowserRouter>
 
+  <Provider store = {store}>
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<Home/>}/>
+        <Route path="/trending" element={<Trend/>}/>
+        <Route path="/music" element={<Music/>}/>
+        <Route path="/artists" element={<Artists/>}/>
+        <Route path="/profile" element={<Profile/>}/>
+      </Routes>
+    
+    </BrowserRouter>
+  </Provider>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
