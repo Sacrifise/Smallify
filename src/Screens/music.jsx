@@ -2,6 +2,8 @@ import React from "react";
 import "./music.css"
 import SidebarFull from "../Components/sidebarFull";
 import Playbar from "../Components/playbar";
+import SearchComp from "../Components/searchComp";
+
 
 
 export default function Music(){
@@ -9,7 +11,11 @@ export default function Music(){
         <div className="cont-music">
             <Playbar/>
             <SidebarFull/>
-            HI MUSIC
+            <div className="content">
+                <div className="content-cont">
+                    <SearchComp/>
+                </div>
+            </div>
         </div>
     )
 }
