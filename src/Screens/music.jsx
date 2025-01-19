@@ -3,6 +3,7 @@ import "./music.css"
 import SidebarFull from "../Components/sidebarFull";
 import Playbar from "../Components/playbar";
 import SearchComp from "../Components/searchComp";
+import PopTracks from "../Components/poularTracksComp";
 
 
 
@@ -14,6 +15,7 @@ export default function Music(){
             <div className="content">
                 <div className="content-cont">
                     <SearchComp/>
+                    <PopTracks/>
                 </div>
             </div>
         </div>
