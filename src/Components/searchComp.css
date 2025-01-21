@@ -56,8 +56,8 @@ input{
     background-color: black;
     color: white;
     position: absolute;
-    top: 8vh;
-    left: 28vw;
+    top: 4vh;
+    left: 0vw;
     border-radius: 20px 20px 20px 20px;
     overflow-y: scroll;
     padding: 10px;
@@ -66,6 +66,9 @@ input{
 }
 .none{
     display: none;
+}
+.search-modal-form{
+    position: relative;
 }
 .search-modal-blockscreen{
     background-color: black;

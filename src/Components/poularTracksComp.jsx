@@ -5,7 +5,7 @@ import TrackCard from "./trackCard"
 
 export default function PopTracks(){
     return(
-        <div>
+        <div className="poptrack-comp">
             <div className="poptrack-title">Popular</div>
             <div className="poptrack-cont">
                 {useSelector((state) => state.trackCardId.value).map((id) => <TrackCard key = {id} trackid={id}/>)}

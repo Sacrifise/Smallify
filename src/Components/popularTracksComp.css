@@ -7,6 +7,10 @@
     padding: 20px 0 0 20px;
     margin-bottom: 30px;
 }
+.poptrack-comp{
+    width: 100%;
+}
+
 .poptrack-title{
     font-size: 1.4rem;
     width: 20%;

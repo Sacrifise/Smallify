@@ -49,16 +49,17 @@ export default class SearchComp extends React.Component{
         return(
             <div className="search-cont">
                 <div className="search-modal-blockscreen none" onClick={(e) => {e.target.classList.toggle("none"); document.querySelector(".search-modal").classList.toggle("none")}}></div>
-                <form onSubmit={(e) => {this.getSearch(this.state.value); e.preventDefault(); document.querySelector(".search-modal").classList.toggle("none"); document.querySelector(".search-modal-blockscreen").classList.toggle("none")}}>
+                <form  className="search-modal-form"onSubmit={(e) => {this.getSearch(this.state.value); e.preventDefault(); document.querySelector(".search-modal").classList.toggle("none"); document.querySelector(".search-modal-blockscreen").classList.toggle("none")}}>
                     <input placeholder="type here..." value={this.state.value} onChange={(e) =>  this.setState({value: e.target.value})}></input>
                     <button type="submit"> search </button>
                     <div className="search-list">
                     </div>
+                    <div className="search-modal none">SEARCH RESULTS
+                        {this.renderSearch()}
+                    </div>
                 </form>
 
-                <div className="search-modal none">SEARCH RESULTS
-                   {this.renderSearch()}
-                </div>
+               
             </div>
         )
     }

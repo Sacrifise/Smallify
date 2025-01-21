@@ -13,8 +13,10 @@
 
 .content-cont{
     height: 95vh;
+    width: 100%;
 }
 .content{
     display: flex;
     align-items: center;
+    width: 77%;
 }
