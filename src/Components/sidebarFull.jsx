@@ -12,7 +12,6 @@ export default function SidebarFull(){
             </div>    
             <IconContext.Provider value ={{className: ".sidebar-btn-icon", size: "40px"}}>
                 <Sidebar title="Home" to="/" icon={<TiHome/>}/>
-                <Sidebar title="Trends" to="/trending" icon={<TiFlash/>}/>
                 <Sidebar title="Music" to="/music" icon={<TiHeart/>}/>
                 <Sidebar title="Artists" to="/artists" icon={<TiStarFullOutline/>}/>
                 <Sidebar title="Profile" to="/profile" icon={<TiUser/>}/>

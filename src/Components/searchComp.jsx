@@ -36,7 +36,7 @@ export default class SearchComp extends React.Component{
     }
 
     getSearchArtists(search){
-        const url = `https://deezerdevs-deezer.p.rapidapi.com/artist/${search}`;
+        const url = `https://deezerdevs-deezer.p.rapidapi.com/search?q=${search}`;
         const options = {
             method: 'GET',
             headers: {
@@ -45,14 +45,13 @@ export default class SearchComp extends React.Component{
             }
         };
         try{
-            fetch(url, options).then(data => data.json()).then(json => this.handleSearchArtists(json));
+            fetch(url, options).then(data => data.json()).then(json => this.handleSearchArtists(json.data[0]));
         } catch (err){
             console.error(err)
         }
     }
 
     handleSearch(json){
-        console.log(json.data);
         this.setState({
             search_results: json.data,
         })
@@ -61,7 +60,7 @@ export default class SearchComp extends React.Component{
     
     handleSearchArtists(json){
         this.setState({
-            search_results: json,
+            search_results: json.artist,
         })
     }
 
@@ -72,7 +71,6 @@ export default class SearchComp extends React.Component{
     }
 
     renderSearchArtists(){
-        console.log(this.state.search_results);
         if (this.state.search_results){
             return <div className="search-list-item" key={this.state.search_results.id}>{this.state.search_results.name} <img className="search-list-item-img-artists"src={this.state.search_results.picture_big}></img></div>
         }
@@ -96,7 +94,7 @@ export default class SearchComp extends React.Component{
                     </form>
     
                    
-                HI</div>
+                </div>
             )
         }
         else{
