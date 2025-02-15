@@ -5,7 +5,7 @@ import "./happinesComp.css"
 export default function HappinesComp(){
     return(
         <div className="happines-cont">
-            <div className="happines-cont-title">YOU ARE INPIRED on 15%</div>
+            <div className="happines-cont-title">YOU ARE INSPIRED on 15%</div>
              <svg class="svg" height="250" width="100" fill="grey">
         
                 <path class="anim1 anim" d="M 0 200 Q 160 180, 320 200 T 960 200 T 1200 200 V 250 H 0 Z"  />

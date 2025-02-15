@@ -5,11 +5,9 @@ import { checkObj } from '../store/slices/authorizationSlice';
 
 export default function ProfileAuth() {
     const dispatch = useDispatch();
-    const user_name = useSelector((state) => state.autorizationUserStore.user_login);
+    
     if (useSelector((state) => state.autorizationUserStore.isAutorized)){
-        return(
-        <div>YOU LOGGED IN AS {user_name}</div>
-        )
+        return("")
     }
     else
         return (
